@@ -33,11 +33,6 @@ $(O):
 	@mkdir -p $@
 	@cp $(INC_DIR)/ippsdftwrapper.h $@
 
-test: main
-
-main: test/test.c
-	$(CC) $(CFLAGS) -Wl,-rpath=. $(IFLAGS) $(LFLAGS) -Iinclude -L. -lippsdftwrapper $^ -o $@
-
 clean:
 	@rm -rf $(B)
 
