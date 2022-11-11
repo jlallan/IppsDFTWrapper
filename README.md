@@ -55,8 +55,8 @@ dft_free(spec);
 ```
 
 ## Compiling
-This repository includes a simple Makefile suitable for basic purposes and
-testing, showing how to compile the library for single and double precisions.
+This repository includes a simple Makefile suitable for basic needs and
+shows how to compile the library for single and double precisions.
 
 Once `autoconf` is set up and working properly, this Makefile will eventually be
 replaced to standardize the install process.
